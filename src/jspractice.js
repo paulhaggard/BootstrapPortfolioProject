@@ -1,9 +1,9 @@
 var hello = prompt("Hello. What is your name?");
 alert("Hi, " + hello + ".  I can see you.");
 var askName = prompt("Are you sure your name is" + hello + "?","No");
-while (askName === "No") {
+while (askName !== "Yes" || askName !=="yes" || askName !== "y") {
 var hello = prompt("Hello. What is your name?");
-var askName = prompt("Are you sure your name is" + hello + "?","No");
+var askName = prompt("Are you sure your name is " + hello + "?","No");
 }
 alert ("Hello, " + askName + ".  I thought it was you.");
 if (askName === "Katelyn") {
