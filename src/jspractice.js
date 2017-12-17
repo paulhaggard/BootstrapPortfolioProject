@@ -1,12 +1,12 @@
-var hello = prompt("Hello. What is your name?");
-alert("Hi, " + hello + ".  I can see you.");
-var askName = prompt("Are you sure your name is " + hello + "?","No");
+var myName = prompt("Hello. What is your name?");
+alert("Hi, " + myName + ".  I can see you.");
+var askName = prompt("Are you sure your name is " + myName + "?","No");
 while (askName !== "Yes" && askName !=="yes" && askName !== "y") {
-var hello = prompt("Hello. Who is this?");
-var askName = prompt("Are you sure your name is " + askName + "?","No");
+var myName = prompt("Hello. Who is this?");
+var askName = prompt("Are you sure your name is " + myName + "?","No");
 }
-alert ("Hello, " + askName + ".  I thought it was you.");
-if (askName === "Katelyn") {
+alert ("Hello, " + myName + ".  I thought it was you.");
+if (myName === "Katelyn") {
 /*	document.write("<div class="footer">");
   document.write("<div class="container">");
  document.write( "<span><h3>Greetings</h3><p>Hello, Katelyn</p></span>" );
